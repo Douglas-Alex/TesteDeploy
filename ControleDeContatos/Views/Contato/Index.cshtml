@@ -2,35 +2,39 @@
     ViewData["Title"] = "Listagem de contatos";
 }
 
-<h1>Listagem de contatos</h1>
+<h1 class="display-4">Listagem de contatos</h1>
 
-<table class="table table-success table-striped">
+<table class="table">
 
-  <thead class="table-dark">
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>mdo</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td colspan="2">Larry the Bird</td>
-      <td>twitter</td>
-    </tr>
-  </tbody>
+    <thead class="table-dark">
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nome</th>
+            <th scope="col">E-mail</th>
+            <th scope="col">Telefone</th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>mdo</td>
+            <td>
+                <a role="button" class="btn btn-primary">Editar</a>
+                <a role="button" class="btn btn-danger">Apagar</a>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>fat</td>
+            <td>
+                <a role="button" class="btn btn-primary">Editar</a>
+                <a role="button" class="btn btn-danger">Apagar</a>
+            </td>
+        </tr>
+    </tbody>
 </table>

@@ -71,3 +71,5 @@ C:\Potifolio\ControleDeContatos\ControleDeContatos\obj\Debug\net5.0\Razor\Views\
 C:\Potifolio\ControleDeContatos\ControleDeContatos\obj\Debug\net5.0\Razor\Views\Contato\Criar.cshtml.g.cs
 C:\Potifolio\ControleDeContatos\ControleDeContatos\obj\Debug\net5.0\Razor\Views\Contato\Editar.cshtml.g.cs
 C:\Potifolio\ControleDeContatos\ControleDeContatos\obj\Debug\net5.0\Razor\Views\Contato\Index.cshtml.g.cs
+C:\Potifolio\ControleDeContatos\ControleDeContatos\bin\Debug\net5.0\Npgsql.dll
+C:\Potifolio\ControleDeContatos\ControleDeContatos\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
